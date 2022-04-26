@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Profile </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        <p> Welcome !</p>
+        <p>User email : <strong>{{ userDetail }}</strong></p>
+      </ion-col>
+    </ion-row>
+    <div class="flex">
+      <ion-button (click)="nextpage()">Let's Started</ion-button>
+      <ion-button (click)="signOut()">Signout</ion-button>
+    </div>
+  </ion-grid>
+</ion-content>

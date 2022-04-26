@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>More Informations</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card  >
+    <ion-img src={{Image.url}}></ion-img>   
+    <ion-card-header>
+      <ion-label class="bb">{{ Image.name}}</ion-label><br/>
+      <ion-label ><span class="b">Price: </span> {{ Image.price}}</ion-label> <br/>
+      <ion-label><ion-icon name="time" color="danger"></ion-icon> 5 hours left at this price!</ion-label> <br/>
+      <ion-label><span class="b">Description: </span> {{ Image.description}}</ion-label>
+    </ion-card-header>
+    <ion-button shape="round" expand="block" color="primary" (click)="nextpage()">Buy Now</ion-button>
+  </ion-card>
+</ion-content>

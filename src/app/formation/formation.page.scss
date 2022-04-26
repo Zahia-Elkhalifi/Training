@@ -1,0 +1,27 @@
+ion-label{
+    color: red;
+    font-size: 900px;
+    font-weight: 300;
+}
+ion-item{
+    margin: 100;
+    font-size: large;
+    margin-top : 50px;
+
+}
+ion-button{
+    --ion-color-primary : rgb(172, 108, 158);
+    justify-content: center;
+    align-items: center;
+    padding:  0 90px;
+    text-transform:none;
+   padding-top: 5px;  
+   margin-top: 50px;
+}
+.form{
+    margin-top: 20px;
+}
+ion-img{
+    width: 200px;
+   margin-left: 80px;
+}
